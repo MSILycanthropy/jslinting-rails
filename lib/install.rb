@@ -3,7 +3,7 @@ run "#{Jslinting.package_manager} add -D eslint @eslint/js eslint globals pretti
 
 say "Setup eslint"
 copy_file "#{__dir__}/install/eslint/eslint.config.mjs", "eslint.config.mjs"
-copy_file "#{__dir__}/install/prettier/.prettierrc", ".prettierrc"
+copy_file "#{__dir__}/install/prettier/prettierrc.json", ".prettierrc"
 
 say "Add scripts"
 lint_script = "eslint app/javascript --max-warnings 0 && prettier app/javascript --check"
