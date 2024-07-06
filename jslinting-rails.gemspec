@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.summary     = "Lint and format JavaScript in Rails with eslint and prettier"
   spec.license     = "MIT"
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.files = Dir["lib/**/*", "MIT-LICENSE", "README.md"]
 
   spec.add_dependency "rails", ">= 6.0.0"
